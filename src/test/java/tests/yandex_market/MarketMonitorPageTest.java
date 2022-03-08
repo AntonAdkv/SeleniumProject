@@ -12,7 +12,7 @@ public class MarketMonitorPageTest extends BaseTest {
     @Test
     public void checkIsRedirectToCart() throws InterruptedException {
         basePage.goToUrl(MARKET_URL_MONITOR);
-        Thread.sleep(10000);
+        Thread.sleep(20500);
         marketMonitorPage.selectCheckBoxMonitor();
         marketMonitorPage.clickBtnInCart();
         marketMonitorPage.checkFrame();
