@@ -7,6 +7,8 @@ import static constansts.Constant.Urls.MARKET_URL_MONITOR;
 
 public class MarketMonitorPageTest extends BaseTest {
 
+    //TODO: Добавить скриншоты
+
     @Test
     public void checkIsRedirectToCart() throws InterruptedException {
         basePage.goToUrl(MARKET_URL_MONITOR);
